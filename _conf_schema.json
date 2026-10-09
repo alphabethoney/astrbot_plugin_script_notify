@@ -1,0 +1,17 @@
+{
+  "queue_path": {
+    "type": "string",
+    "description": "播报队列文件的路径，本地脚本把要发的内容按行写进去",
+    "default": "~/logs/notify_queue.txt"
+  },
+  "target_session": {
+    "type": "string",
+    "description": "目标会话，格式为 平台:消息类型:会话ID，例如 aiocqhttp:FriendMessage:1234567890",
+    "default": ""
+  },
+  "poll_interval": {
+    "type": "int",
+    "description": "轮询队列文件的间隔，单位秒，最小 5",
+    "default": 20
+  }
+}

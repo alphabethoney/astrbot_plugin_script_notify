@@ -1,0 +1,8 @@
+name: astrbot_plugin_script_notify
+display_name: 脚本播报桥
+desc: 把本地脚本写进队列文件的内容直接发到指定会话，不经过大模型，零 token 成本
+version: v1.0.0
+author: ""
+repo: ""
+support_platforms:
+  - aiocqhttp
